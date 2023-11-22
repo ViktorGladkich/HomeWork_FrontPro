@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 20px;
+   font-weight: 800;
+   text-shadow: 1px 1px 10px;
+}
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    color: gold;
+    background-color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+#first_name{
+    background-color:black;
+    color: white;
+    font-size: 30px;
+    
+}
+#last_name {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+#city {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+#gender {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.linkGoogle {
+    color:deeppink;
+    font-size: 45px;
+
+}
+img {
+   
+}
+.text2 {
+    line-height: 40px;
+    text-transform: capitalize;
+}

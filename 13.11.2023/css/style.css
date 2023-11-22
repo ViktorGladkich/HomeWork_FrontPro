@@ -1,0 +1,40 @@
+.main {
+    /* для того чотбы все дочерние элементы класса main позиционраивались по горизонтале*/
+    display: flex;
+    width: 80%;
+    /* свойство align-items  помогает позиционировать элементы по вертикале */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    align-items: flex-end;
+    border: 5px solid;
+    /* justify-content: flex-end; все дочерние элементы будут с права */
+    /* justify-content: flex-end; */
+    /* позиционирует по центру */
+    /* justify-content: center; */
+    /* делает отступы друг от друга: 1ый элементы исет в самый левый угол, последний в правый угол. Остальные автоматически расчитываются друг от дргуа */
+    /* justify-content: space-between; */
+    /* делает тоже самое только добавляет отступ с права и лева */
+    justify-content: space-around;
+}
+
+article {
+    padding: 10px;
+    border: 2px solid red;
+    width: 20%;
+}
+
+.block1 {
+    /* с помощю flex мы можем изменять ширину дочерних элементов */
+    /* flex: 2; */
+    /* с помощю order мы можем менять очереднность элементов внутри container-a */
+    /* order: 2; */
+}
+.block2 {
+    /* flex: 1; */
+    /* order: 3; */
+
+}
+.block3 {
+    /* flex: 1; */
+    /* order: 1; */
+}

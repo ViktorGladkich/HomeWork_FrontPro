@@ -1,0 +1,17 @@
+p {
+    display: in;
+}
+img {
+    width: 200px;
+    
+}
+#before-span {
+    color: red;
+}
+.lorem-paragraph {
+    background: wheat;
+
+}
+#google-link{
+    display: inline-block;
+}
