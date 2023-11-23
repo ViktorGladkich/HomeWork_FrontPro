@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  letter-spacing: 4px;
+  position: fixed;
+  z-index: 1000;
+}
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+.navbar__container span {
+  padding: 8px 16px;
+  font-weight: bolder;
+}
+.navbar__container .content__link-left {
+  color: #111;
+  font-weight: 400;
+}
+.navbar__content ul {
+  display: flex;
+  padding: 8px 16px;
+}
+.navbar__content ul li a {
+  padding: 8px 16px;
+  color: #111;
+}
+.header__logo {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header__logo img {
+  max-width: 100%;
+}
+.header__container {
+  position: relative;
+}
+.header__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 16px;
+}
+.header__title h1 {
+  color: #f1f1f1;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Segoe UI", Arial, sans-serif;
+  letter-spacing: 4px;
+}
+.header__title h1 span {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bolder;
+  background-color: #000;
+  padding: 8px 16px;
+  opacity: 0.75;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.page__content {
+  max-width: 1564px;
+  margin: 0 auto;
+  padding: 8px 16px;
+}
+.projects__container {
+  padding: 0.01em 16px;
+}
+.container__title h3 {
+  border-bottom: 1px solid #ccc;
+  border-color: #f1f1f1;
+  padding: 16px 0;
+  margin: 10px 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.container__title {
+  padding: 32px 16px;
+}
+.projects__gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px 16px;
+  padding: 0 8px;
+}
+.house__img {
+  position: relative;
+}
+.house__img img {
+  max-width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.title__house {
+  color: #fff;
+  background-color: #000;
+  padding: 8px 16px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.about__container {
+  padding: 0.01em 16px;
+}
+.about__description {
+  padding: 32px 16px;
+}
+.about__description h3 {
+  padding: 16px 0;
+  margin: 10px 0;
+  border-bottom: 1px solid #ccc;
+  border-color: #f1f1f1;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.about__description p {
+  margin: 15px 0;
+}
+.about__card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 16px;
+  padding: 0 8px;
+}
+.card__info {
+  margin-bottom: 16px;
+}
+.card__info img {
+  max-width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+  filter: grayscale(75%);
+}
+.card__info h3 {
+    font-family: "Segoe UI", Arial ,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+.card__paragraf-grey {
+    opacity: 0.60;
+    margin: 15px 0;
+}
+.card__info p {
+    margin: 15px 0;
+}
+.card__info button {
+    color: #000;
+    background-color: #f1f1f1;
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    font: inherit;
+}
+.contact__container {
+    padding: 0.01em 16px;
+    margin: 32px 0;
+}
+
+.contact__title h3 {
+    border-bottom: 1px solid #ccc;
+    border-color: #f1f1f1;
+    padding: 16px 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+.contact__title p {
+    margin: 15px 0;
+}
+form {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#name {
+    margin: 0;
+}
+form input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    font: inherit;
+    margin: 16px 0;
+}
+form button {
+    max-width: 12%;
+    color: #fff;
+    background-color: #000;
+    margin: 16px 0;
+    padding: 8px 16px;
+    border: none;
+    font: inherit;
+}
+.location__map {
+    padding: 0.01em 16px;
+}
+.location__map img {
+max-width: 100%;
+margin: 0 auto;
+}
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 16px 0;
+}
+footer p {
+    margin: 15px 0;
+}
+footer p a {
+    color: #fff;
+    text-decoration: underline;
+}
