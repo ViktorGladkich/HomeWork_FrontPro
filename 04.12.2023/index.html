@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h2 class="title">Cryto Exchange</h2>
+      <div class="form">
+        <div class="form__item">
+          <label for="">Rate</label>
+          <input type="text" class="form__input input-1" />
+        </div>
+        <button class="btn" onclick="exchange ()">Exchange</button>
+      </div>
+      <h3 class="result result-1">10000 $ = 0.25 BTC</h3>
+    </section>
+
+    <section class="container">
+      <h2 class="title">Calculate-Subtract</h2>
+      <div class="form">
+        <div class="form__item">
+          <label for="">Number 1</label>
+          <input type="text" class="form__input input-2" />
+          <label for="">Number 2</label>
+          <input type="text" class="form__input input-3" />
+        </div>
+        <button class="btn" onclick="subtract()">Subtract</button>
+      </div>
+      <h3 class="result result-2">Show expression</h3>
+    </section>
+
+    <section class="container">
+      <h2 class="title">Calculate-Multiply</h2>
+      <div class="form">
+        <div class="form__item">
+          <label for="">Number 1</label>
+          <input type="text" class="form__input input-4" />
+          <label for="">Number 2</label>
+          <input type="text" class="form__input input-5" />
+        </div>
+        <button class="btn" onclick="multiply()">Multiply</button>
+      </div>
+      <h3 class="result result-3">Show expression</h3>
+    </section>
+
+    <section class="container">
+      <h2 class="title">Calculate-Divide</h2>
+      <div class="form">
+        <div class="form__item">
+          <label for="">Number 1</label>
+          <input type="text" class="form__input input-6" />
+          <label for="">Number 2</label>
+          <input type="text" class="form__input input-7" />
+        </div>
+        <button class="btn" onclick="divide()">Divide</button>
+      </div>
+      <h3 class="result result-4">Show expression</h3>
+    </section>
+
+    <section class="container">
+      <h2 class="title">Hours-Minutes</h2>
+      <div class="form">
+        <div class="form__item">
+          <label for="">Hours</label>
+          <input type="text" class="form__input input-8" />
+        </div>
+        <button class="btn" onclick="getMinutes()">Сhange</button>
+      </div>
+      <h3 class="result result-5">Show Minutes</h3>
+    </section>
+
+    <section class="container">
+      <h2 class="title">Calculate-Average</h2>
+      <div class="form">
+        <div class="form__item">
+          <label for="">Number 1</label>
+          <input type="text" class="form__input input-9" />
+          <label for="">Number 2</label>
+          <input type="text" class="form__input input-10" />
+          <label for="">Number 3</label>
+          <input type="text" class="form__input input-11" />
+        </div>
+        <button class="btn" onclick="calculateAverage()">Сount</button>
+      </div>
+      <h3 class="result result-6">Show Average</h3>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
