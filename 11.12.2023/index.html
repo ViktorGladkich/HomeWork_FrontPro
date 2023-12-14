@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gallery">
+        <button class="gallery__action" onclick="prev()">Prev</button>
+        <img src="./img/1.jpg" alt="" class="gallery__image" onclick="zoom()" />
+        <button class="gallery__action" onclick="next()">Next</button>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Выбор курсов!</h2>
+      <form class="courseForm">
+        <label for="modul">Выберите модуль:</label>
+        <select class="modul" name="modul" onchange="updateCours()"></select>
+
+        <label for="cours">Выберите курс:</label>
+        <select class="cours" name="cours"></select>
+
+        <label for="amount">Количество курсов:</label>
+        <input type="number" class="amount" name="amount" min="1" value="1" />
+
+        <button type="button" onclick="calculateTotal()">
+          Узнать стоимость
+        </button>
+      </form>
+
+      <div class="result"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
