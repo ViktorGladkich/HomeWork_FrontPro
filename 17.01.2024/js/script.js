@@ -191,7 +191,7 @@ function createTodoItem(data = todos) {
     document.querySelector(".container").append(footer);
   }
 
-  updateCheckedCount();
+  checkedCount();
 }
 
 function removeTodoItem(id) {
