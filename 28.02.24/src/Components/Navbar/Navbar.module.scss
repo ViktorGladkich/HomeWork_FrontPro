@@ -1,0 +1,76 @@
+.navbar {
+  max-width: 1612px;
+  margin: 0 auto;
+
+  &_container {
+    display: flex;
+    justify-content: space-around;
+
+    &_logo {
+      padding-top: 13px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &_logo_text {
+      font-family: "Tangerine";
+      font-weight: 700;
+      font-size: 26px;
+      color: #4c4c4b;
+    }
+    &_content {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+      padding-top: 34px;
+
+      a {
+        text-decoration: none;
+        font-family: "Cormorant";
+        color: #4c4c4b;
+        font-size: 26px;
+        font-weight: 500;
+      }
+
+      &_title {
+        :first-child {
+          border-bottom: 6px solid #e89b93;
+        }
+      }
+    }
+
+    &_icon {
+      padding-top: 26px;
+      gap: 40px;
+      display: flex;
+
+      span {
+        i {
+          svg {
+            width: 40px;
+            height: 40px;
+            color: #4c4c4b;
+          }
+        }
+      }
+
+      .bagIconContainer {
+        position: relative;
+      }
+
+      .bagIconCounter {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        top: -18px;
+        right: -10px;
+        background-color: #dfb2a9;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

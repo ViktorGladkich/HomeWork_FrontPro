@@ -1,0 +1,133 @@
+.main {
+  &_trending {
+    padding-top: 48px;
+    h1 {
+      text-align: center;
+      font-family: "Cormorant";
+      font-size: 66px;
+      font-weight: 700;
+      line-height: 80px;
+      color: #4c4c4b;
+    }
+
+    &_trending_content {
+      padding-top: 78px;
+      display: flex;
+      justify-content: space-around;
+
+      :first-child img {
+        border: 20px solid #dfb2a9;
+      }
+
+      &_title {
+        padding-top: 108px;
+        h2 {
+          text-align: center;
+          font-family: "Cormorant";
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 43.6px;
+          color: #4c4c4b;
+        }
+
+        p {
+          padding-top: 64px;
+          font-family: "Cormorant";
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 27px;
+          color: #4c4c4b;
+          text-align: center;
+        }
+
+        &_button {
+          padding-top: 65px;
+          text-align: center;
+          button {
+            background-color: #dfb2a9;
+            border: none;
+            color: #ffffff;
+            padding: 18px 38px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: 700;
+            font-family: "Cormorant";
+            border-radius: 30px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  &_products {
+    padding-top: 69px;
+    h3 {
+      text-align: center;
+      font-family: "Cormorant";
+      font-size: 66px;
+      font-weight: 700;
+      line-height: 80px;
+      color: #4c4c4b;
+    }
+    img {
+      border: 7px solid #e89b93;
+    }
+
+    .borderColor {
+      border: 7px solid #b78e80;
+    }
+
+    &_container {
+      display: flex;
+      padding-top: 94px;
+      justify-content: space-around;
+    }
+
+    &_title {
+      padding-top: 57px;
+      p {
+        font-family: "Cormorant";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.22px;
+        color: #4c4c4b;
+      }
+
+      h5 {
+        padding-top: 16px;
+        font-family: "Cormorant";
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+      }
+    }
+
+    &_button {
+      padding-top: 62px;
+      text-align: center;
+      button {
+        background-color: #e89b93;
+        border: none;
+        color: #ffffff;
+        padding: 19px 49px;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        font-family: "Cormorant";
+        border-radius: 30px;
+        cursor: pointer;
+      }
+    }
+
+    h4 {
+      text-align: center;
+      font-family: "Cormorant";
+      font-size: 66px;
+      font-weight: 700;
+      line-height: 80px;
+      color: #4c4c4b;
+      padding-top: 45px;
+    }
+  }
+}
